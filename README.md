@@ -1,1 +1,1 @@
-# Pub_OT_User_Acc_Deprovisioning
+Deprovision the user accounts based on the "Email" field. Last Login Filter: Identified users who haven’t logged in for 6+ months or have no login date at all (null). Exclusions: Excluded users managed by "Org_exclude" and those belonging to countries in the "Country_exclude". Deactivation List: Compiled users meeting the above criteria into the deactivation template.
